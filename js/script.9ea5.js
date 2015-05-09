@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".email").each(function(){var a=$(this).data("to"),b=$(this).data("domain");$(this).text(a+"@"+b),$(this).on("click",function(){window.location="mailto:"+a+"@"+b})})});
